@@ -1,2 +1,2 @@
 # Webpack
-common
+compile js and scss
