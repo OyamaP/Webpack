@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_Test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/Test */ \"./src/js/modules/Test.js\");\n/* harmony import */ var _scss_common_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/common.scss */ \"./src/scss/common.scss\");\n// import { hello } from \"./modules/sub\";\r\n\r\n\r\n\r\nconst test = new _modules_Test__WEBPACK_IMPORTED_MODULE_0__.Test(\"Anya\");\r\ntest.hello();\r\n\n\n//# sourceURL=webpack://webpack/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_Test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/Test */ \"./src/js/modules/Test.js\");\n/* harmony import */ var _scss_common_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/common.scss */ \"./src/scss/common.scss\");\n\r\n\r\n\r\nconst test = new _modules_Test__WEBPACK_IMPORTED_MODULE_0__.Test(\"Anya\");\r\ntest.hello();\r\n\n\n//# sourceURL=webpack://webpack/./src/js/index.js?");
 
 /***/ }),
 

@@ -25,8 +25,8 @@ const entries = glob.sync("**/*.js", {
 })
 .map(key => {
     // glob加工 js/index.js => index, js/page/company.js => page/company
-    const fileName = key.replace(/^js\//, "").replace(/.js$/, "");
-    return [fileName, path.resolve(srcDir, key)]
+    const name = key.replace(/^js\//, "").replace(/.js$/, "");
+    return [name, path.resolve(srcDir, key)]
 });
 
 const entryObj = Object.fromEntries(entries);
