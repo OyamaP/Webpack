@@ -54,4 +54,8 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
     ],
+    performance: { // for webpack performance size limit
+        maxEntrypointSize: 500000,
+        maxAssetSize: 500000,
+    },
 };
